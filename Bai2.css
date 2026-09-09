@@ -1,0 +1,32 @@
+   tr.header {
+       color: blue;
+       font-size: 20px;
+       background-color: lightgray;
+   }
+   
+   table {
+       margin: 0 auto;
+   }
+   
+   td {
+       font-size: 14px;
+   }
+   
+   tr.c2:hover {
+       color: rgb(0, 149, 255);
+   }
+   
+   tr.c3:hover {
+       color: aqua;
+   }
+   
+   tr.c4:hover {
+       color: rgb(11, 214, 48);
+   }
+   
+   img {
+       height: 700x;
+       width: 700px;
+       margin: 0 auto;
+       display: block;
+   }

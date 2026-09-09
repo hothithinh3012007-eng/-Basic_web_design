@@ -1,0 +1,32 @@
+header.box {
+    width: 600px;
+    height: 100px;
+    background-color: aqua;
+}
+
+header.box h1 {
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
+
+header.box a {
+    display: inline-block;
+    width: 135px;
+    text-align: center;
+    color: blue;
+}
+
+header.box a:hover {
+    color: rgb(12, 157, 49);
+}
+
+header.box p {
+    color: black;
+    text-align: center;
+}
+
+header.box h2 {
+    color: black;
+    text-align: center;
+}
