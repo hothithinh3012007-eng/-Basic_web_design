@@ -4,6 +4,12 @@ header.box {
     background-color: aqua;
 }
 
+
+/* hearder.box img {
+    width: 100px;
+    height: 100px;
+    float: left; */
+
 header.box h1 {
     text-align: center;
     line-height: 50px;
@@ -28,5 +34,9 @@ header.box p {
 
 header.box h2 {
     color: black;
+    text-align: center;
+}
+
+.about {
     text-align: center;
 }

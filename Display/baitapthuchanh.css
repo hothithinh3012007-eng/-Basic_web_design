@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    gap: 5px;
+}
+
+.cot-trai {
+    width: 50%;
+}
+
+.cot-phai {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.anh1 {
+    height: 225px;
+    margin-bottom: 5px;
+}
+
+.anh2 {
+    height: 105px;
+    margin-bottom: 5px;
+}
+
+.anh3 {
+    height: 290px;
+    margin-bottom: 8px;
+}
+
+.anh4 {
+    height: 300px;
+    margin-bottom: 8px;
+}
+
+.anh5 {
+    height: 258px;
+}

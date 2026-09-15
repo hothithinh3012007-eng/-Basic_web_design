@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: white;
+    color: #222;
+}
+
+
+/* ===== HEADER ===== */
+
+.header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo span {
+    color: #d70808;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.logo-box {
+    width: 35px;
+    height: 35px;
+    background-color: #d70808;
+    border-radius: 50%;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    margin-left: 50px;
+}
+
+.menu a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px 5px;
+}
+
+.menu a:hover {
+    color: #d70808;
+}
+
+
+/* ===== MENU ĐANG CHỌN ===== */
+
+.menu a.active {
+    color: #d70808;
+    font-weight: bold;
+    border-bottom: 2px solid #d70808;
+}
+
+.more {
+    margin-left: auto;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+    padding: 35px 30px;
+}
+
+
+/* ===== CARD MÓN ĂN ===== */
+
+
+/* .card {
+    flex: 1;
+    min-width: 190px;
+    border: 1px solid #ddd;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.1s;
+} */
+
+.card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ===== ẢNH MÓN ĂN ===== */
+
+.cart img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 9px;
+    transition: 0.1s;
+}
+
+.cart {
+    width: 180px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    transition: 0.1s;
+}
+
+.cart:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.Name h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.Dress p {
+    margin: 0 0 8px;
+    color: #777;
+    font-size: 14px;
+    /* line-height: 1.4; */
+}
+
+.Boozer h3 {
+    margin: 0;
+    color: #d70808;
+    font-size: 16px;
+}
