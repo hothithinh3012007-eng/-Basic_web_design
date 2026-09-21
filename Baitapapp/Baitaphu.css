@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+.header {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    gap: 45px;
+}
+
+.logo {
+    width: 100px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #222;
+}
+
+.logo span {
+    color: #eab72b;
+}
+
+.search {
+    display: flex;
+    width: 400px;
+    height: 32px;
+}
+
+.search select {
+    width: 115px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 11px;
+    color: #555;
+    background-color: white;
+}
+
+.search input {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 8px;
+    outline: none;
+    font-size: 11px;
+}
+
+.search button {
+    width: 40px;
+    border: none;
+    background-color: #eab72b;
+    color: white;
+    cursor: pointer;
+}
+
+.menu {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    background-color: #222;
+}
+
+.menu a {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background-color: #444;
+}
+
+.departments {
+    background-color: #333;
+}
+
+.breadcrumb span {
+    margin: 0 10px;
+    color: #bbb;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 50px 10px 55px;
+}
+
+.product {
+    position: relative;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 245px;
+    display: block;
+    object-fit: cover;
+    background-color: #f5f5f5;
+}
+
+.product img:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.sale {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    padding: 5px 7px;
+    background-color: #eab72b;
+    color: white;
+    font-size: 9px;
+}
+
+.category {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #639363;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.product h3 {
+    margin: 5px 0;
+    color: #e6c52c;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.price {
+    margin-top: 3px;
+    color: #d3b21c;
+    font-size: 12px;
+}
+
+.footer {
+    min-height: 245px;
+    background-color: #191919;
+    color: #aaa;
+    display: grid;
+    grid-template-columns: 1.5fr 0.8fr 0.8fr 1.5fr;
+    gap: 45px;
+    padding: 45px 30px;
+}
+
+.footer-logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 18px;
+}
+
+.footer-logo span {
+    color: #eab72b;
+}
+
+.footer p {
+    margin: 8px 0;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.footer h3 {
+    margin: 5px 0 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.footer a {
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.footer a:hover {
+    color: #eab72b;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444;
+    color: white;
+    margin: 0;
+}
+
+.newsletter {
+    display: flex;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.newsletter input {
+    width: 180px;
+    border: none;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    outline: none;
+    font-size: 11px;
+}
+
+.newsletter button {
+    width: 90px;
+    border: none;
+    background-color: #eab72b;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    cursor: pointer;
+}
