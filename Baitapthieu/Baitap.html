@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercise Simple Math</title>
+
+    <link rel="stylesheet" href="bai6.css">
+    <script src="bai6.js"></script>
+</head>
+
+<body>
+    Number A (*) <br>
+    <input type="number" name="" id="numbera"> <br> Number B (*) <br>
+    <input type="number" name="" id="numberb"> <br>
+
+    <br> Summation:
+    <input type="button" value="+" onclick="result(cong(getValueA(), getValueB()))">
+    <br> Subtraction:
+    <input type="button" value="-" onclick="result(tru(getValueA(), getValueB()))">
+    <br> Multiplication:
+    <input type="button" value="*" onclick="result(nhan(getValueA(), getValueB()))">
+    <br> Division:
+    <input type="button" value="/" onclick="result(chia(getValueA(), getValueB()))">
+    <br><br> Result A & B: <br>
+    <input type="text" id="result" disabled="true">
+    <script src="Baitap.js"></script>
+</body>
+
+</html>
